@@ -5,8 +5,15 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const fetch = require("node-fetch"); // npm install node-fetch
 
-const api = "https://pokeapi.co/api/v2/pokemon/1"; //store API URL to API
+const api = "https://pokeapi.co/api/v2/pokemon/"; //store API URL to API
 const port = 3000;
+
+/*
+id:number
+name:string
+img:string
+types:string[]
+*/
 
 app.use(cors());
 

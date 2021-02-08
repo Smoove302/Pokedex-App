@@ -1,4 +1,4 @@
-const localhost = "http://localhost:3000";
+const localhost = "http://localhost:3000/pokemon/search";
 const btn = document.querySelector(".btn");
 
 //On Click function
